@@ -1,0 +1,1513 @@
+{
+  "input_dir": "data/raw/mcnd",
+  "output_root": "data/crops",
+  "model": "yolov8n-pose.pt",
+  "skip_detection": false,
+  "blur_threshold": 50.0,
+  "accepted_count": 106,
+  "rejected_count": 44,
+  "total_processed": 150,
+  "accepted_fraction": 0.7066666666666667,
+  "metadata": [
+    {
+      "identity": "sapi_a",
+      "original": "data/raw/mcnd/sapi_a/sapi_a_1.jpg",
+      "crop": "data/crops/cropped/sapi_a/sapi_a_1.jpg",
+      "selected": true,
+      "blur_score": 109.322,
+      "laplacian_var": 109.322,
+      "freq_score": 1.2538,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_a",
+      "original": "data/raw/mcnd/sapi_a/sapi_a_2.jpg",
+      "crop": "data/crops/cropped/sapi_a/sapi_a_2.jpg",
+      "selected": true,
+      "blur_score": 79.187,
+      "laplacian_var": 79.187,
+      "freq_score": 0.9608,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_a",
+      "original": "data/raw/mcnd/sapi_a/sapi_a_3.jpg",
+      "crop": "data/crops/cropped/sapi_a/sapi_a_3.jpg",
+      "selected": true,
+      "blur_score": 165.2382,
+      "laplacian_var": 165.2382,
+      "freq_score": 1.5603,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_a",
+      "original": "data/raw/mcnd/sapi_a/sapi_a_4.jpg",
+      "crop": "data/crops/cropped/sapi_a/sapi_a_4.jpg",
+      "selected": false,
+      "blur_score": 45.3668,
+      "laplacian_var": 45.3668,
+      "freq_score": 0.9373,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_a",
+      "original": "data/raw/mcnd/sapi_a/sapi_a_5.jpg",
+      "crop": "data/crops/cropped/sapi_a/sapi_a_5.jpg",
+      "selected": true,
+      "blur_score": 112.172,
+      "laplacian_var": 112.172,
+      "freq_score": 1.152,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_a1",
+      "original": "data/raw/mcnd/sapi_a1/sapi_a1_15.jpg",
+      "crop": "data/crops/cropped/sapi_a1/sapi_a1_15.jpg",
+      "selected": false,
+      "blur_score": 17.1462,
+      "laplacian_var": 17.1462,
+      "freq_score": 0.73,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_a1",
+      "original": "data/raw/mcnd/sapi_a1/sapi_a1_2.jpg",
+      "crop": "data/crops/cropped/sapi_a1/sapi_a1_2.jpg",
+      "selected": false,
+      "blur_score": 18.9199,
+      "laplacian_var": 18.9199,
+      "freq_score": 0.6986,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_a1",
+      "original": "data/raw/mcnd/sapi_a1/sapi_a1_4.jpg",
+      "crop": "data/crops/cropped/sapi_a1/sapi_a1_4.jpg",
+      "selected": false,
+      "blur_score": 26.4146,
+      "laplacian_var": 26.4146,
+      "freq_score": 0.7831,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_a1",
+      "original": "data/raw/mcnd/sapi_a1/sapi_a1_6.jpg",
+      "crop": "data/crops/cropped/sapi_a1/sapi_a1_6.jpg",
+      "selected": false,
+      "blur_score": 16.6747,
+      "laplacian_var": 16.6747,
+      "freq_score": 0.7171,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_a1",
+      "original": "data/raw/mcnd/sapi_a1/sapi_a1_7.jpg",
+      "crop": "data/crops/cropped/sapi_a1/sapi_a1_7.jpg",
+      "selected": false,
+      "blur_score": 17.9631,
+      "laplacian_var": 17.9631,
+      "freq_score": 0.7141,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_b",
+      "original": "data/raw/mcnd/sapi_b/sapi_b_3.jpg",
+      "crop": "data/crops/cropped/sapi_b/sapi_b_3.jpg",
+      "selected": true,
+      "blur_score": 269.5074,
+      "laplacian_var": 269.5074,
+      "freq_score": 1.5446,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_b",
+      "original": "data/raw/mcnd/sapi_b/sapi_b_4.jpg",
+      "crop": "data/crops/cropped/sapi_b/sapi_b_4.jpg",
+      "selected": true,
+      "blur_score": 126.2927,
+      "laplacian_var": 126.2927,
+      "freq_score": 1.1081,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_b",
+      "original": "data/raw/mcnd/sapi_b/sapi_b_6.jpg",
+      "crop": "data/crops/cropped/sapi_b/sapi_b_6.jpg",
+      "selected": true,
+      "blur_score": 63.3642,
+      "laplacian_var": 63.3642,
+      "freq_score": 0.9532,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_b",
+      "original": "data/raw/mcnd/sapi_b/sapi_b_7.jpg",
+      "crop": "data/crops/cropped/sapi_b/sapi_b_7.jpg",
+      "selected": true,
+      "blur_score": 241.099,
+      "laplacian_var": 241.099,
+      "freq_score": 1.4389,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_b",
+      "original": "data/raw/mcnd/sapi_b/sapi_b_8.jpg",
+      "crop": "data/crops/cropped/sapi_b/sapi_b_8.jpg",
+      "selected": true,
+      "blur_score": 192.7981,
+      "laplacian_var": 192.7981,
+      "freq_score": 1.339,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_b1",
+      "original": "data/raw/mcnd/sapi_b1/sapi_b1_15.jpg",
+      "crop": "data/crops/cropped/sapi_b1/sapi_b1_15.jpg",
+      "selected": false,
+      "blur_score": 19.7406,
+      "laplacian_var": 19.7406,
+      "freq_score": 0.7707,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_b1",
+      "original": "data/raw/mcnd/sapi_b1/sapi_b1_4.jpg",
+      "crop": "data/crops/cropped/sapi_b1/sapi_b1_4.jpg",
+      "selected": false,
+      "blur_score": 16.3871,
+      "laplacian_var": 16.3871,
+      "freq_score": 0.6773,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_b1",
+      "original": "data/raw/mcnd/sapi_b1/sapi_b1_6.jpg",
+      "crop": "data/crops/cropped/sapi_b1/sapi_b1_6.jpg",
+      "selected": false,
+      "blur_score": 19.4976,
+      "laplacian_var": 19.4976,
+      "freq_score": 0.7513,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_b1",
+      "original": "data/raw/mcnd/sapi_b1/sapi_b1_7.jpg",
+      "crop": "data/crops/cropped/sapi_b1/sapi_b1_7.jpg",
+      "selected": false,
+      "blur_score": 8.5017,
+      "laplacian_var": 8.5017,
+      "freq_score": 0.7569,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_b1",
+      "original": "data/raw/mcnd/sapi_b1/sapi_b1_8.jpg",
+      "crop": "data/crops/cropped/sapi_b1/sapi_b1_8.jpg",
+      "selected": false,
+      "blur_score": 13.6755,
+      "laplacian_var": 13.6755,
+      "freq_score": 0.6442,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_c",
+      "original": "data/raw/mcnd/sapi_c/sapi_c_1.jpg",
+      "crop": "data/crops/cropped/sapi_c/sapi_c_1.jpg",
+      "selected": true,
+      "blur_score": 78.7677,
+      "laplacian_var": 78.7677,
+      "freq_score": 0.9595,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_c",
+      "original": "data/raw/mcnd/sapi_c/sapi_c_5.jpg",
+      "crop": "data/crops/cropped/sapi_c/sapi_c_5.jpg",
+      "selected": false,
+      "blur_score": 30.3882,
+      "laplacian_var": 30.3882,
+      "freq_score": 0.8087,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_c",
+      "original": "data/raw/mcnd/sapi_c/sapi_c_6.jpg",
+      "crop": "data/crops/cropped/sapi_c/sapi_c_6.jpg",
+      "selected": false,
+      "blur_score": 35.1831,
+      "laplacian_var": 35.1831,
+      "freq_score": 0.8234,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_c",
+      "original": "data/raw/mcnd/sapi_c/sapi_c_7.jpg",
+      "crop": "data/crops/cropped/sapi_c/sapi_c_7.jpg",
+      "selected": false,
+      "blur_score": 24.092,
+      "laplacian_var": 24.092,
+      "freq_score": 0.7572,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_c",
+      "original": "data/raw/mcnd/sapi_c/sapi_c_8.jpg",
+      "crop": "data/crops/cropped/sapi_c/sapi_c_8.jpg",
+      "selected": false,
+      "blur_score": 37.0394,
+      "laplacian_var": 37.0394,
+      "freq_score": 0.8406,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_c1",
+      "original": "data/raw/mcnd/sapi_c1/sapi_c1_13.jpg",
+      "crop": "data/crops/cropped/sapi_c1/sapi_c1_13.jpg",
+      "selected": false,
+      "blur_score": 33.7763,
+      "laplacian_var": 33.7763,
+      "freq_score": 0.9571,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_c1",
+      "original": "data/raw/mcnd/sapi_c1/sapi_c1_2.jpg",
+      "crop": "data/crops/cropped/sapi_c1/sapi_c1_2.jpg",
+      "selected": false,
+      "blur_score": 13.4871,
+      "laplacian_var": 13.4871,
+      "freq_score": 0.5897,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_c1",
+      "original": "data/raw/mcnd/sapi_c1/sapi_c1_4.jpg",
+      "crop": "data/crops/cropped/sapi_c1/sapi_c1_4.jpg",
+      "selected": false,
+      "blur_score": 12.6598,
+      "laplacian_var": 12.6598,
+      "freq_score": 0.6708,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_c1",
+      "original": "data/raw/mcnd/sapi_c1/sapi_c1_5.jpg",
+      "crop": "data/crops/cropped/sapi_c1/sapi_c1_5.jpg",
+      "selected": false,
+      "blur_score": 17.9882,
+      "laplacian_var": 17.9882,
+      "freq_score": 0.7231,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_c1",
+      "original": "data/raw/mcnd/sapi_c1/sapi_c1_6.jpg",
+      "crop": "data/crops/cropped/sapi_c1/sapi_c1_6.jpg",
+      "selected": false,
+      "blur_score": 24.1547,
+      "laplacian_var": 24.1547,
+      "freq_score": 0.807,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_d",
+      "original": "data/raw/mcnd/sapi_d/sapi_d_3.jpg",
+      "crop": "data/crops/cropped/sapi_d/sapi_d_3.jpg",
+      "selected": true,
+      "blur_score": 83.0398,
+      "laplacian_var": 83.0398,
+      "freq_score": 1.3847,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_d",
+      "original": "data/raw/mcnd/sapi_d/sapi_d_4.jpg",
+      "crop": "data/crops/cropped/sapi_d/sapi_d_4.jpg",
+      "selected": false,
+      "blur_score": 41.6922,
+      "laplacian_var": 41.6922,
+      "freq_score": 0.8758,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_d",
+      "original": "data/raw/mcnd/sapi_d/sapi_d_6.jpg",
+      "crop": "data/crops/cropped/sapi_d/sapi_d_6.jpg",
+      "selected": true,
+      "blur_score": 95.5793,
+      "laplacian_var": 95.5793,
+      "freq_score": 1.1456,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_d",
+      "original": "data/raw/mcnd/sapi_d/sapi_d_7.jpg",
+      "crop": "data/crops/cropped/sapi_d/sapi_d_7.jpg",
+      "selected": true,
+      "blur_score": 54.7699,
+      "laplacian_var": 54.7699,
+      "freq_score": 0.9147,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_d",
+      "original": "data/raw/mcnd/sapi_d/sapi_d_8.jpg",
+      "crop": "data/crops/cropped/sapi_d/sapi_d_8.jpg",
+      "selected": true,
+      "blur_score": 59.2707,
+      "laplacian_var": 59.2707,
+      "freq_score": 0.9,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_d1",
+      "original": "data/raw/mcnd/sapi_d1/sapi_d1_1.jpg",
+      "crop": "data/crops/cropped/sapi_d1/sapi_d1_1.jpg",
+      "selected": false,
+      "blur_score": 20.7974,
+      "laplacian_var": 20.7974,
+      "freq_score": 0.8752,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_d1",
+      "original": "data/raw/mcnd/sapi_d1/sapi_d1_2.jpg",
+      "crop": "data/crops/cropped/sapi_d1/sapi_d1_2.jpg",
+      "selected": false,
+      "blur_score": 7.8059,
+      "laplacian_var": 7.8059,
+      "freq_score": 0.6537,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_d1",
+      "original": "data/raw/mcnd/sapi_d1/sapi_d1_3.jpg",
+      "crop": "data/crops/cropped/sapi_d1/sapi_d1_3.jpg",
+      "selected": false,
+      "blur_score": 17.9567,
+      "laplacian_var": 17.9567,
+      "freq_score": 0.8878,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_d1",
+      "original": "data/raw/mcnd/sapi_d1/sapi_d1_5.jpg",
+      "crop": "data/crops/cropped/sapi_d1/sapi_d1_5.jpg",
+      "selected": false,
+      "blur_score": 28.2528,
+      "laplacian_var": 28.2528,
+      "freq_score": 0.9726,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_d1",
+      "original": "data/raw/mcnd/sapi_d1/sapi_d1_6.jpg",
+      "crop": "data/crops/cropped/sapi_d1/sapi_d1_6.jpg",
+      "selected": true,
+      "blur_score": 57.6885,
+      "laplacian_var": 57.6885,
+      "freq_score": 1.2961,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_e",
+      "original": "data/raw/mcnd/sapi_e/sapi_e_1.jpg",
+      "crop": "data/crops/cropped/sapi_e/sapi_e_1.jpg",
+      "selected": true,
+      "blur_score": 138.9324,
+      "laplacian_var": 138.9324,
+      "freq_score": 1.6851,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_e",
+      "original": "data/raw/mcnd/sapi_e/sapi_e_3.jpg",
+      "crop": "data/crops/cropped/sapi_e/sapi_e_3.jpg",
+      "selected": true,
+      "blur_score": 92.1038,
+      "laplacian_var": 92.1038,
+      "freq_score": 1.1344,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_e",
+      "original": "data/raw/mcnd/sapi_e/sapi_e_4.jpg",
+      "crop": "data/crops/cropped/sapi_e/sapi_e_4.jpg",
+      "selected": true,
+      "blur_score": 51.6093,
+      "laplacian_var": 51.6093,
+      "freq_score": 0.9435,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_e",
+      "original": "data/raw/mcnd/sapi_e/sapi_e_5.jpg",
+      "crop": "data/crops/cropped/sapi_e/sapi_e_5.jpg",
+      "selected": true,
+      "blur_score": 52.0571,
+      "laplacian_var": 52.0571,
+      "freq_score": 0.921,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_e",
+      "original": "data/raw/mcnd/sapi_e/sapi_e_6.jpg",
+      "crop": "data/crops/cropped/sapi_e/sapi_e_6.jpg",
+      "selected": true,
+      "blur_score": 61.5763,
+      "laplacian_var": 61.5763,
+      "freq_score": 1.0049,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_f",
+      "original": "data/raw/mcnd/sapi_f/sapi_f_2.jpg",
+      "crop": "data/crops/cropped/sapi_f/sapi_f_2.jpg",
+      "selected": true,
+      "blur_score": 164.0555,
+      "laplacian_var": 164.0555,
+      "freq_score": 1.3739,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_f",
+      "original": "data/raw/mcnd/sapi_f/sapi_f_4.jpg",
+      "crop": "data/crops/cropped/sapi_f/sapi_f_4.jpg",
+      "selected": true,
+      "blur_score": 69.3806,
+      "laplacian_var": 69.3806,
+      "freq_score": 0.8264,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_f",
+      "original": "data/raw/mcnd/sapi_f/sapi_f_5.jpg",
+      "crop": "data/crops/cropped/sapi_f/sapi_f_5.jpg",
+      "selected": false,
+      "blur_score": 17.2752,
+      "laplacian_var": 17.2752,
+      "freq_score": 0.9766,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_f",
+      "original": "data/raw/mcnd/sapi_f/sapi_f_6.jpg",
+      "crop": "data/crops/cropped/sapi_f/sapi_f_6.jpg",
+      "selected": false,
+      "blur_score": 31.9328,
+      "laplacian_var": 31.9328,
+      "freq_score": 0.7187,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_f",
+      "original": "data/raw/mcnd/sapi_f/sapi_f_8.jpg",
+      "crop": "data/crops/cropped/sapi_f/sapi_f_8.jpg",
+      "selected": false,
+      "blur_score": 48.3789,
+      "laplacian_var": 48.3789,
+      "freq_score": 0.8121,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_g",
+      "original": "data/raw/mcnd/sapi_g/sapi_g_2.jpg",
+      "crop": "data/crops/cropped/sapi_g/sapi_g_2.jpg",
+      "selected": true,
+      "blur_score": 130.0288,
+      "laplacian_var": 130.0288,
+      "freq_score": 1.3501,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_g",
+      "original": "data/raw/mcnd/sapi_g/sapi_g_4.jpg",
+      "crop": "data/crops/cropped/sapi_g/sapi_g_4.jpg",
+      "selected": true,
+      "blur_score": 118.4793,
+      "laplacian_var": 118.4793,
+      "freq_score": 1.3187,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_g",
+      "original": "data/raw/mcnd/sapi_g/sapi_g_6.jpg",
+      "crop": "data/crops/cropped/sapi_g/sapi_g_6.jpg",
+      "selected": true,
+      "blur_score": 69.7129,
+      "laplacian_var": 69.7129,
+      "freq_score": 1.0922,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_g",
+      "original": "data/raw/mcnd/sapi_g/sapi_g_7.jpg",
+      "crop": "data/crops/cropped/sapi_g/sapi_g_7.jpg",
+      "selected": true,
+      "blur_score": 60.8423,
+      "laplacian_var": 60.8423,
+      "freq_score": 1.0003,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_g",
+      "original": "data/raw/mcnd/sapi_g/sapi_g_8.jpg",
+      "crop": "data/crops/cropped/sapi_g/sapi_g_8.jpg",
+      "selected": true,
+      "blur_score": 82.1766,
+      "laplacian_var": 82.1766,
+      "freq_score": 1.0534,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_h",
+      "original": "data/raw/mcnd/sapi_h/sapi_h_2.jpg",
+      "crop": "data/crops/cropped/sapi_h/sapi_h_2.jpg",
+      "selected": true,
+      "blur_score": 60.7343,
+      "laplacian_var": 60.7343,
+      "freq_score": 0.762,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_h",
+      "original": "data/raw/mcnd/sapi_h/sapi_h_3.jpg",
+      "crop": "data/crops/cropped/sapi_h/sapi_h_3.jpg",
+      "selected": true,
+      "blur_score": 66.7212,
+      "laplacian_var": 66.7212,
+      "freq_score": 0.8707,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_h",
+      "original": "data/raw/mcnd/sapi_h/sapi_h_7.jpg",
+      "crop": "data/crops/cropped/sapi_h/sapi_h_7.jpg",
+      "selected": true,
+      "blur_score": 64.054,
+      "laplacian_var": 64.054,
+      "freq_score": 0.7903,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_h",
+      "original": "data/raw/mcnd/sapi_h/sapi_h_8.jpg",
+      "crop": "data/crops/cropped/sapi_h/sapi_h_8.jpg",
+      "selected": false,
+      "blur_score": 39.7556,
+      "laplacian_var": 39.7556,
+      "freq_score": 0.666,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_h",
+      "original": "data/raw/mcnd/sapi_h/sapi_h_9.jpg",
+      "crop": "data/crops/cropped/sapi_h/sapi_h_9.jpg",
+      "selected": true,
+      "blur_score": 83.2629,
+      "laplacian_var": 83.2629,
+      "freq_score": 0.9029,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_i",
+      "original": "data/raw/mcnd/sapi_i/sapi_i_2.jpg",
+      "crop": "data/crops/cropped/sapi_i/sapi_i_2.jpg",
+      "selected": true,
+      "blur_score": 93.0263,
+      "laplacian_var": 93.0263,
+      "freq_score": 1.0554,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_i",
+      "original": "data/raw/mcnd/sapi_i/sapi_i_4.jpg",
+      "crop": "data/crops/cropped/sapi_i/sapi_i_4.jpg",
+      "selected": true,
+      "blur_score": 152.8553,
+      "laplacian_var": 152.8553,
+      "freq_score": 1.4108,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_i",
+      "original": "data/raw/mcnd/sapi_i/sapi_i_6.jpg",
+      "crop": "data/crops/cropped/sapi_i/sapi_i_6.jpg",
+      "selected": true,
+      "blur_score": 215.1457,
+      "laplacian_var": 215.1457,
+      "freq_score": 1.5607,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_i",
+      "original": "data/raw/mcnd/sapi_i/sapi_i_7.jpg",
+      "crop": "data/crops/cropped/sapi_i/sapi_i_7.jpg",
+      "selected": true,
+      "blur_score": 326.3249,
+      "laplacian_var": 326.3249,
+      "freq_score": 1.7459,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_i",
+      "original": "data/raw/mcnd/sapi_i/sapi_i_8.jpg",
+      "crop": "data/crops/cropped/sapi_i/sapi_i_8.jpg",
+      "selected": true,
+      "blur_score": 98.6947,
+      "laplacian_var": 98.6947,
+      "freq_score": 1.112,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_j",
+      "original": "data/raw/mcnd/sapi_j/sapi_j_1.jpg",
+      "crop": "data/crops/cropped/sapi_j/sapi_j_1.jpg",
+      "selected": true,
+      "blur_score": 151.6331,
+      "laplacian_var": 151.6331,
+      "freq_score": 1.2951,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_j",
+      "original": "data/raw/mcnd/sapi_j/sapi_j_2.jpg",
+      "crop": "data/crops/cropped/sapi_j/sapi_j_2.jpg",
+      "selected": true,
+      "blur_score": 203.6927,
+      "laplacian_var": 203.6927,
+      "freq_score": 1.4748,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_j",
+      "original": "data/raw/mcnd/sapi_j/sapi_j_3.jpg",
+      "crop": "data/crops/cropped/sapi_j/sapi_j_3.jpg",
+      "selected": true,
+      "blur_score": 207.4064,
+      "laplacian_var": 207.4064,
+      "freq_score": 1.4664,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_j",
+      "original": "data/raw/mcnd/sapi_j/sapi_j_4.jpg",
+      "crop": "data/crops/cropped/sapi_j/sapi_j_4.jpg",
+      "selected": true,
+      "blur_score": 136.1745,
+      "laplacian_var": 136.1745,
+      "freq_score": 1.2997,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_j",
+      "original": "data/raw/mcnd/sapi_j/sapi_j_9.jpg",
+      "crop": "data/crops/cropped/sapi_j/sapi_j_9.jpg",
+      "selected": true,
+      "blur_score": 160.7955,
+      "laplacian_var": 160.7955,
+      "freq_score": 1.1803,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_k",
+      "original": "data/raw/mcnd/sapi_k/sapi_k_1.jpg",
+      "crop": "data/crops/cropped/sapi_k/sapi_k_1.jpg",
+      "selected": true,
+      "blur_score": 106.5508,
+      "laplacian_var": 106.5508,
+      "freq_score": 1.244,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_k",
+      "original": "data/raw/mcnd/sapi_k/sapi_k_3.jpg",
+      "crop": "data/crops/cropped/sapi_k/sapi_k_3.jpg",
+      "selected": true,
+      "blur_score": 161.7891,
+      "laplacian_var": 161.7891,
+      "freq_score": 1.4181,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_k",
+      "original": "data/raw/mcnd/sapi_k/sapi_k_4.jpg",
+      "crop": "data/crops/cropped/sapi_k/sapi_k_4.jpg",
+      "selected": false,
+      "blur_score": 33.1218,
+      "laplacian_var": 33.1218,
+      "freq_score": 0.8948,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_k",
+      "original": "data/raw/mcnd/sapi_k/sapi_k_5.jpg",
+      "crop": "data/crops/cropped/sapi_k/sapi_k_5.jpg",
+      "selected": true,
+      "blur_score": 115.2304,
+      "laplacian_var": 115.2304,
+      "freq_score": 1.4882,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_k",
+      "original": "data/raw/mcnd/sapi_k/sapi_k_6.jpg",
+      "crop": "data/crops/cropped/sapi_k/sapi_k_6.jpg",
+      "selected": true,
+      "blur_score": 69.4907,
+      "laplacian_var": 69.4907,
+      "freq_score": 1.0053,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_l",
+      "original": "data/raw/mcnd/sapi_l/sapi_l_1.jpg",
+      "crop": "data/crops/cropped/sapi_l/sapi_l_1.jpg",
+      "selected": true,
+      "blur_score": 105.0764,
+      "laplacian_var": 105.0764,
+      "freq_score": 1.0865,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_l",
+      "original": "data/raw/mcnd/sapi_l/sapi_l_4.jpg",
+      "crop": "data/crops/cropped/sapi_l/sapi_l_4.jpg",
+      "selected": true,
+      "blur_score": 68.9714,
+      "laplacian_var": 68.9714,
+      "freq_score": 1.2078,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_l",
+      "original": "data/raw/mcnd/sapi_l/sapi_l_5.jpg",
+      "crop": "data/crops/cropped/sapi_l/sapi_l_5.jpg",
+      "selected": true,
+      "blur_score": 78.2825,
+      "laplacian_var": 78.2825,
+      "freq_score": 1.0201,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_l",
+      "original": "data/raw/mcnd/sapi_l/sapi_l_7.jpg",
+      "crop": "data/crops/cropped/sapi_l/sapi_l_7.jpg",
+      "selected": true,
+      "blur_score": 228.5774,
+      "laplacian_var": 228.5774,
+      "freq_score": 1.2319,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_l",
+      "original": "data/raw/mcnd/sapi_l/sapi_l_8.jpg",
+      "crop": "data/crops/cropped/sapi_l/sapi_l_8.jpg",
+      "selected": true,
+      "blur_score": 173.6552,
+      "laplacian_var": 173.6552,
+      "freq_score": 1.7988,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_m",
+      "original": "data/raw/mcnd/sapi_m/sapi_m_01.jpg",
+      "crop": "data/crops/cropped/sapi_m/sapi_m_01.jpg",
+      "selected": true,
+      "blur_score": 66.9513,
+      "laplacian_var": 66.9513,
+      "freq_score": 0.9157,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_m",
+      "original": "data/raw/mcnd/sapi_m/sapi_m_03.jpg",
+      "crop": "data/crops/cropped/sapi_m/sapi_m_03.jpg",
+      "selected": true,
+      "blur_score": 64.9442,
+      "laplacian_var": 64.9442,
+      "freq_score": 1.0043,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_m",
+      "original": "data/raw/mcnd/sapi_m/sapi_m_04.jpg",
+      "crop": "data/crops/cropped/sapi_m/sapi_m_04.jpg",
+      "selected": true,
+      "blur_score": 75.026,
+      "laplacian_var": 75.026,
+      "freq_score": 0.8746,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_m",
+      "original": "data/raw/mcnd/sapi_m/sapi_m_05.jpg",
+      "crop": "data/crops/cropped/sapi_m/sapi_m_05.jpg",
+      "selected": true,
+      "blur_score": 223.9621,
+      "laplacian_var": 223.9621,
+      "freq_score": 1.5218,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_m",
+      "original": "data/raw/mcnd/sapi_m/sapi_m_06.jpg",
+      "crop": "data/crops/cropped/sapi_m/sapi_m_06.jpg",
+      "selected": true,
+      "blur_score": 107.5934,
+      "laplacian_var": 107.5934,
+      "freq_score": 1.1546,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_n",
+      "original": "data/raw/mcnd/sapi_n/sapi_n_2.jpg",
+      "crop": "data/crops/cropped/sapi_n/sapi_n_2.jpg",
+      "selected": true,
+      "blur_score": 262.3232,
+      "laplacian_var": 262.3232,
+      "freq_score": 1.684,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_n",
+      "original": "data/raw/mcnd/sapi_n/sapi_n_3.jpg",
+      "crop": "data/crops/cropped/sapi_n/sapi_n_3.jpg",
+      "selected": true,
+      "blur_score": 329.1344,
+      "laplacian_var": 329.1344,
+      "freq_score": 2.8143,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_n",
+      "original": "data/raw/mcnd/sapi_n/sapi_n_5.jpg",
+      "crop": "data/crops/cropped/sapi_n/sapi_n_5.jpg",
+      "selected": true,
+      "blur_score": 290.403,
+      "laplacian_var": 290.403,
+      "freq_score": 1.5794,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_n",
+      "original": "data/raw/mcnd/sapi_n/sapi_n_8.jpg",
+      "crop": "data/crops/cropped/sapi_n/sapi_n_8.jpg",
+      "selected": true,
+      "blur_score": 249.1895,
+      "laplacian_var": 249.1895,
+      "freq_score": 1.7656,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_n",
+      "original": "data/raw/mcnd/sapi_n/sapi_n_9.jpg",
+      "crop": "data/crops/cropped/sapi_n/sapi_n_9.jpg",
+      "selected": true,
+      "blur_score": 248.2374,
+      "laplacian_var": 248.2374,
+      "freq_score": 1.7996,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_o",
+      "original": "data/raw/mcnd/sapi_o/sapi_o_1.jpg",
+      "crop": "data/crops/cropped/sapi_o/sapi_o_1.jpg",
+      "selected": true,
+      "blur_score": 83.2468,
+      "laplacian_var": 83.2468,
+      "freq_score": 0.941,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_o",
+      "original": "data/raw/mcnd/sapi_o/sapi_o_2.jpg",
+      "crop": "data/crops/cropped/sapi_o/sapi_o_2.jpg",
+      "selected": true,
+      "blur_score": 84.9591,
+      "laplacian_var": 84.9591,
+      "freq_score": 0.9789,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_o",
+      "original": "data/raw/mcnd/sapi_o/sapi_o_6.jpg",
+      "crop": "data/crops/cropped/sapi_o/sapi_o_6.jpg",
+      "selected": true,
+      "blur_score": 73.9394,
+      "laplacian_var": 73.9394,
+      "freq_score": 0.8973,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_o",
+      "original": "data/raw/mcnd/sapi_o/sapi_o_7.jpg",
+      "crop": "data/crops/cropped/sapi_o/sapi_o_7.jpg",
+      "selected": true,
+      "blur_score": 88.414,
+      "laplacian_var": 88.414,
+      "freq_score": 1.0044,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_o",
+      "original": "data/raw/mcnd/sapi_o/sapi_o_8.jpg",
+      "crop": "data/crops/cropped/sapi_o/sapi_o_8.jpg",
+      "selected": true,
+      "blur_score": 53.9572,
+      "laplacian_var": 53.9572,
+      "freq_score": 0.8175,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_p",
+      "original": "data/raw/mcnd/sapi_p/sapi_p_1.jpg",
+      "crop": "data/crops/cropped/sapi_p/sapi_p_1.jpg",
+      "selected": false,
+      "blur_score": 49.4712,
+      "laplacian_var": 49.4712,
+      "freq_score": 0.9603,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_p",
+      "original": "data/raw/mcnd/sapi_p/sapi_p_3.jpg",
+      "crop": "data/crops/cropped/sapi_p/sapi_p_3.jpg",
+      "selected": true,
+      "blur_score": 74.4762,
+      "laplacian_var": 74.4762,
+      "freq_score": 1.2607,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_p",
+      "original": "data/raw/mcnd/sapi_p/sapi_p_5.jpg",
+      "crop": "data/crops/cropped/sapi_p/sapi_p_5.jpg",
+      "selected": true,
+      "blur_score": 50.0997,
+      "laplacian_var": 50.0997,
+      "freq_score": 0.9206,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_p",
+      "original": "data/raw/mcnd/sapi_p/sapi_p_6.jpg",
+      "crop": "data/crops/cropped/sapi_p/sapi_p_6.jpg",
+      "selected": true,
+      "blur_score": 62.4813,
+      "laplacian_var": 62.4813,
+      "freq_score": 1.1577,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_p",
+      "original": "data/raw/mcnd/sapi_p/sapi_p_8.jpg",
+      "crop": "data/crops/cropped/sapi_p/sapi_p_8.jpg",
+      "selected": true,
+      "blur_score": 60.2524,
+      "laplacian_var": 60.2524,
+      "freq_score": 1.1967,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_q",
+      "original": "data/raw/mcnd/sapi_q/sapi_q_1.jpg",
+      "crop": "data/crops/cropped/sapi_q/sapi_q_1.jpg",
+      "selected": true,
+      "blur_score": 58.9276,
+      "laplacian_var": 58.9276,
+      "freq_score": 0.9524,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_q",
+      "original": "data/raw/mcnd/sapi_q/sapi_q_3.jpg",
+      "crop": "data/crops/cropped/sapi_q/sapi_q_3.jpg",
+      "selected": false,
+      "blur_score": 41.5705,
+      "laplacian_var": 41.5705,
+      "freq_score": 1.1397,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_q",
+      "original": "data/raw/mcnd/sapi_q/sapi_q_5.jpg",
+      "crop": "data/crops/cropped/sapi_q/sapi_q_5.jpg",
+      "selected": true,
+      "blur_score": 147.5448,
+      "laplacian_var": 147.5448,
+      "freq_score": 1.4136,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_q",
+      "original": "data/raw/mcnd/sapi_q/sapi_q_6.jpg",
+      "crop": "data/crops/cropped/sapi_q/sapi_q_6.jpg",
+      "selected": true,
+      "blur_score": 61.1256,
+      "laplacian_var": 61.1256,
+      "freq_score": 0.9541,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_q",
+      "original": "data/raw/mcnd/sapi_q/sapi_q_8.jpg",
+      "crop": "data/crops/cropped/sapi_q/sapi_q_8.jpg",
+      "selected": true,
+      "blur_score": 66.3963,
+      "laplacian_var": 66.3963,
+      "freq_score": 1.0529,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_r",
+      "original": "data/raw/mcnd/sapi_r/sapi_r_1.jpg",
+      "crop": "data/crops/cropped/sapi_r/sapi_r_1.jpg",
+      "selected": true,
+      "blur_score": 75.766,
+      "laplacian_var": 75.766,
+      "freq_score": 1.2364,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_r",
+      "original": "data/raw/mcnd/sapi_r/sapi_r_2.jpg",
+      "crop": "data/crops/cropped/sapi_r/sapi_r_2.jpg",
+      "selected": true,
+      "blur_score": 66.3651,
+      "laplacian_var": 66.3651,
+      "freq_score": 0.973,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_r",
+      "original": "data/raw/mcnd/sapi_r/sapi_r_3.jpg",
+      "crop": "data/crops/cropped/sapi_r/sapi_r_3.jpg",
+      "selected": true,
+      "blur_score": 65.887,
+      "laplacian_var": 65.887,
+      "freq_score": 1.1759,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_r",
+      "original": "data/raw/mcnd/sapi_r/sapi_r_5.jpg",
+      "crop": "data/crops/cropped/sapi_r/sapi_r_5.jpg",
+      "selected": true,
+      "blur_score": 67.2904,
+      "laplacian_var": 67.2904,
+      "freq_score": 0.998,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_r",
+      "original": "data/raw/mcnd/sapi_r/sapi_r_8.jpg",
+      "crop": "data/crops/cropped/sapi_r/sapi_r_8.jpg",
+      "selected": true,
+      "blur_score": 97.9767,
+      "laplacian_var": 97.9767,
+      "freq_score": 1.2196,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_s",
+      "original": "data/raw/mcnd/sapi_s/sapi_s_1.jpg",
+      "crop": "data/crops/cropped/sapi_s/sapi_s_1.jpg",
+      "selected": true,
+      "blur_score": 123.8562,
+      "laplacian_var": 123.8562,
+      "freq_score": 1.2185,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_s",
+      "original": "data/raw/mcnd/sapi_s/sapi_s_2.jpg",
+      "crop": "data/crops/cropped/sapi_s/sapi_s_2.jpg",
+      "selected": true,
+      "blur_score": 129.9838,
+      "laplacian_var": 129.9838,
+      "freq_score": 1.277,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_s",
+      "original": "data/raw/mcnd/sapi_s/sapi_s_3.jpg",
+      "crop": "data/crops/cropped/sapi_s/sapi_s_3.jpg",
+      "selected": true,
+      "blur_score": 143.9153,
+      "laplacian_var": 143.9153,
+      "freq_score": 1.3126,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_s",
+      "original": "data/raw/mcnd/sapi_s/sapi_s_4.jpg",
+      "crop": "data/crops/cropped/sapi_s/sapi_s_4.jpg",
+      "selected": true,
+      "blur_score": 73.4047,
+      "laplacian_var": 73.4047,
+      "freq_score": 0.9265,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_s",
+      "original": "data/raw/mcnd/sapi_s/sapi_s_7.jpg",
+      "crop": "data/crops/cropped/sapi_s/sapi_s_7.jpg",
+      "selected": true,
+      "blur_score": 89.4093,
+      "laplacian_var": 89.4093,
+      "freq_score": 2.7799,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_t",
+      "original": "data/raw/mcnd/sapi_t/sapi_t_2.jpg",
+      "crop": "data/crops/cropped/sapi_t/sapi_t_2.jpg",
+      "selected": true,
+      "blur_score": 213.4366,
+      "laplacian_var": 213.4366,
+      "freq_score": 1.4452,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_t",
+      "original": "data/raw/mcnd/sapi_t/sapi_t_3.jpg",
+      "crop": "data/crops/cropped/sapi_t/sapi_t_3.jpg",
+      "selected": true,
+      "blur_score": 76.518,
+      "laplacian_var": 76.518,
+      "freq_score": 1.0005,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_t",
+      "original": "data/raw/mcnd/sapi_t/sapi_t_7.jpg",
+      "crop": "data/crops/cropped/sapi_t/sapi_t_7.jpg",
+      "selected": true,
+      "blur_score": 145.9387,
+      "laplacian_var": 145.9387,
+      "freq_score": 1.3101,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_t",
+      "original": "data/raw/mcnd/sapi_t/sapi_t_8.jpg",
+      "crop": "data/crops/cropped/sapi_t/sapi_t_8.jpg",
+      "selected": true,
+      "blur_score": 115.3772,
+      "laplacian_var": 115.3772,
+      "freq_score": 1.1837,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_t",
+      "original": "data/raw/mcnd/sapi_t/sapi_t_9.jpg",
+      "crop": "data/crops/cropped/sapi_t/sapi_t_9.jpg",
+      "selected": true,
+      "blur_score": 82.5616,
+      "laplacian_var": 82.5616,
+      "freq_score": 0.9073,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_u",
+      "original": "data/raw/mcnd/sapi_u/sapi_u_2.jpg",
+      "crop": "data/crops/cropped/sapi_u/sapi_u_2.jpg",
+      "selected": false,
+      "blur_score": 29.1917,
+      "laplacian_var": 29.1917,
+      "freq_score": 0.9114,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_u",
+      "original": "data/raw/mcnd/sapi_u/sapi_u_4.jpg",
+      "crop": "data/crops/cropped/sapi_u/sapi_u_4.jpg",
+      "selected": true,
+      "blur_score": 71.9404,
+      "laplacian_var": 71.9404,
+      "freq_score": 1.1923,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_u",
+      "original": "data/raw/mcnd/sapi_u/sapi_u_5.jpg",
+      "crop": "data/crops/cropped/sapi_u/sapi_u_5.jpg",
+      "selected": true,
+      "blur_score": 66.5589,
+      "laplacian_var": 66.5589,
+      "freq_score": 1.0516,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_u",
+      "original": "data/raw/mcnd/sapi_u/sapi_u_8.jpg",
+      "crop": "data/crops/cropped/sapi_u/sapi_u_8.jpg",
+      "selected": true,
+      "blur_score": 51.8374,
+      "laplacian_var": 51.8374,
+      "freq_score": 1.0455,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_u",
+      "original": "data/raw/mcnd/sapi_u/sapi_u_9.jpg",
+      "crop": "data/crops/cropped/sapi_u/sapi_u_9.jpg",
+      "selected": false,
+      "blur_score": 44.0222,
+      "laplacian_var": 44.0222,
+      "freq_score": 0.9992,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_v",
+      "original": "data/raw/mcnd/sapi_v/sapi_v_16.jpg",
+      "crop": "data/crops/cropped/sapi_v/sapi_v_16.jpg",
+      "selected": true,
+      "blur_score": 67.1122,
+      "laplacian_var": 67.1122,
+      "freq_score": 0.999,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_v",
+      "original": "data/raw/mcnd/sapi_v/sapi_v_4.jpg",
+      "crop": "data/crops/cropped/sapi_v/sapi_v_4.jpg",
+      "selected": false,
+      "blur_score": 49.1765,
+      "laplacian_var": 49.1765,
+      "freq_score": 1.177,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_v",
+      "original": "data/raw/mcnd/sapi_v/sapi_v_5.jpg",
+      "crop": "data/crops/cropped/sapi_v/sapi_v_5.jpg",
+      "selected": true,
+      "blur_score": 55.2186,
+      "laplacian_var": 55.2186,
+      "freq_score": 0.9294,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_v",
+      "original": "data/raw/mcnd/sapi_v/sapi_v_7.jpg",
+      "crop": "data/crops/cropped/sapi_v/sapi_v_7.jpg",
+      "selected": false,
+      "blur_score": 41.9795,
+      "laplacian_var": 41.9795,
+      "freq_score": 1.0527,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_v",
+      "original": "data/raw/mcnd/sapi_v/sapi_v_8.jpg",
+      "crop": "data/crops/cropped/sapi_v/sapi_v_8.jpg",
+      "selected": false,
+      "blur_score": 42.39,
+      "laplacian_var": 42.39,
+      "freq_score": 0.8555,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_w",
+      "original": "data/raw/mcnd/sapi_w/sapi_w_1.jpg",
+      "crop": "data/crops/cropped/sapi_w/sapi_w_1.jpg",
+      "selected": true,
+      "blur_score": 65.3918,
+      "laplacian_var": 65.3918,
+      "freq_score": 0.9931,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_w",
+      "original": "data/raw/mcnd/sapi_w/sapi_w_13.jpg",
+      "crop": "data/crops/cropped/sapi_w/sapi_w_13.jpg",
+      "selected": true,
+      "blur_score": 91.4728,
+      "laplacian_var": 91.4728,
+      "freq_score": 1.147,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_w",
+      "original": "data/raw/mcnd/sapi_w/sapi_w_4.jpg",
+      "crop": "data/crops/cropped/sapi_w/sapi_w_4.jpg",
+      "selected": true,
+      "blur_score": 52.326,
+      "laplacian_var": 52.326,
+      "freq_score": 0.8712,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_w",
+      "original": "data/raw/mcnd/sapi_w/sapi_w_5.jpg",
+      "crop": "data/crops/cropped/sapi_w/sapi_w_5.jpg",
+      "selected": true,
+      "blur_score": 57.5897,
+      "laplacian_var": 57.5897,
+      "freq_score": 0.8566,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_w",
+      "original": "data/raw/mcnd/sapi_w/sapi_w_6.jpg",
+      "crop": "data/crops/cropped/sapi_w/sapi_w_6.jpg",
+      "selected": false,
+      "blur_score": 39.2634,
+      "laplacian_var": 39.2634,
+      "freq_score": 0.7039,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_x",
+      "original": "data/raw/mcnd/sapi_x/sapi_x_2.jpg",
+      "crop": "data/crops/cropped/sapi_x/sapi_x_2.jpg",
+      "selected": true,
+      "blur_score": 140.3571,
+      "laplacian_var": 140.3571,
+      "freq_score": 2.4172,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_x",
+      "original": "data/raw/mcnd/sapi_x/sapi_x_4.jpg",
+      "crop": "data/crops/cropped/sapi_x/sapi_x_4.jpg",
+      "selected": true,
+      "blur_score": 60.5645,
+      "laplacian_var": 60.5645,
+      "freq_score": 0.9507,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_x",
+      "original": "data/raw/mcnd/sapi_x/sapi_x_5.jpg",
+      "crop": "data/crops/cropped/sapi_x/sapi_x_5.jpg",
+      "selected": true,
+      "blur_score": 55.3862,
+      "laplacian_var": 55.3862,
+      "freq_score": 0.95,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_x",
+      "original": "data/raw/mcnd/sapi_x/sapi_x_6.jpg",
+      "crop": "data/crops/cropped/sapi_x/sapi_x_6.jpg",
+      "selected": true,
+      "blur_score": 60.0763,
+      "laplacian_var": 60.0763,
+      "freq_score": 1.2246,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_x",
+      "original": "data/raw/mcnd/sapi_x/sapi_x_7.jpg",
+      "crop": "data/crops/cropped/sapi_x/sapi_x_7.jpg",
+      "selected": true,
+      "blur_score": 54.4074,
+      "laplacian_var": 54.4074,
+      "freq_score": 0.863,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_y",
+      "original": "data/raw/mcnd/sapi_y/sapi_y_12.jpg",
+      "crop": "data/crops/cropped/sapi_y/sapi_y_12.jpg",
+      "selected": true,
+      "blur_score": 54.1707,
+      "laplacian_var": 54.1707,
+      "freq_score": 1.0481,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_y",
+      "original": "data/raw/mcnd/sapi_y/sapi_y_4.jpg",
+      "crop": "data/crops/cropped/sapi_y/sapi_y_4.jpg",
+      "selected": false,
+      "blur_score": 34.021,
+      "laplacian_var": 34.021,
+      "freq_score": 0.9025,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_y",
+      "original": "data/raw/mcnd/sapi_y/sapi_y_5.jpg",
+      "crop": "data/crops/cropped/sapi_y/sapi_y_5.jpg",
+      "selected": false,
+      "blur_score": 16.463,
+      "laplacian_var": 16.463,
+      "freq_score": 0.696,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_y",
+      "original": "data/raw/mcnd/sapi_y/sapi_y_6.jpg",
+      "crop": "data/crops/cropped/sapi_y/sapi_y_6.jpg",
+      "selected": false,
+      "blur_score": 17.3339,
+      "laplacian_var": 17.3339,
+      "freq_score": 0.6576,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_y",
+      "original": "data/raw/mcnd/sapi_y/sapi_y_7.jpg",
+      "crop": "data/crops/cropped/sapi_y/sapi_y_7.jpg",
+      "selected": false,
+      "blur_score": 14.3027,
+      "laplacian_var": 14.3027,
+      "freq_score": 0.5377,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_z",
+      "original": "data/raw/mcnd/sapi_z/sapi_z_1.jpg",
+      "crop": "data/crops/cropped/sapi_z/sapi_z_1.jpg",
+      "selected": true,
+      "blur_score": 58.311,
+      "laplacian_var": 58.311,
+      "freq_score": 0.9388,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_z",
+      "original": "data/raw/mcnd/sapi_z/sapi_z_12.jpg",
+      "crop": "data/crops/cropped/sapi_z/sapi_z_12.jpg",
+      "selected": true,
+      "blur_score": 67.8926,
+      "laplacian_var": 67.8926,
+      "freq_score": 1.1236,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_z",
+      "original": "data/raw/mcnd/sapi_z/sapi_z_6.jpg",
+      "crop": "data/crops/cropped/sapi_z/sapi_z_6.jpg",
+      "selected": false,
+      "blur_score": 37.8945,
+      "laplacian_var": 37.8945,
+      "freq_score": 0.8373,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_z",
+      "original": "data/raw/mcnd/sapi_z/sapi_z_7.jpg",
+      "crop": "data/crops/cropped/sapi_z/sapi_z_7.jpg",
+      "selected": false,
+      "blur_score": 18.8488,
+      "laplacian_var": 18.8488,
+      "freq_score": 1.0635,
+      "threshold": 50.0
+    },
+    {
+      "identity": "sapi_z",
+      "original": "data/raw/mcnd/sapi_z/sapi_z_8.jpg",
+      "crop": "data/crops/cropped/sapi_z/sapi_z_8.jpg",
+      "selected": true,
+      "blur_score": 78.6015,
+      "laplacian_var": 78.6015,
+      "freq_score": 1.0409,
+      "threshold": 50.0
+    }
+  ]
+}

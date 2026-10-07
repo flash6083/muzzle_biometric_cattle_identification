@@ -1,0 +1,38 @@
+{
+  "train_identities": [
+    "sapi_b",
+    "sapi_d",
+    "sapi_h",
+    "sapi_i",
+    "sapi_l",
+    "sapi_m",
+    "sapi_n",
+    "sapi_o",
+    "sapi_p",
+    "sapi_q",
+    "sapi_r",
+    "sapi_s",
+    "sapi_u",
+    "sapi_w",
+    "sapi_z"
+  ],
+  "eval_identities": [
+    "sapi_a",
+    "sapi_e",
+    "sapi_g",
+    "sapi_j",
+    "sapi_k",
+    "sapi_t",
+    "sapi_x"
+  ],
+  "excluded_identities": [
+    "sapi_c",
+    "sapi_d1",
+    "sapi_f",
+    "sapi_v",
+    "sapi_y"
+  ],
+  "minimum_images": 3,
+  "train_ratio": 0.7,
+  "seed": 42
+}

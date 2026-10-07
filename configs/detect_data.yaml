@@ -1,0 +1,28 @@
+train: data/raw/mcnd/train/images
+val: data/raw/mcnd/val/images
+
+nc: 1
+names: ['muzzle']
+
+kpt_shape: [3, 3]
+
+model: yolov8n-pose.pt
+
+hyp:
+  lr0: 0.01
+  lrf: 0.01
+  momentum: 0.937
+  weight_decay: 0.0005
+  warmup_epochs: 3.0
+  warmup_momentum: 0.8
+  warmup_bias_lr: 0.1
+  box: 0.05
+  cls: 0.5
+  dfl: 1.5
+  kobj: 1.0
+  iou: 0.2
+  fl_gamma: 0.0
+
+epochs: 100
+batch: 16
+imgsz: 640

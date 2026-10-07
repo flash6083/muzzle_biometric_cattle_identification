@@ -1,0 +1,66 @@
+{
+  "checkpoint": "models/checkpoints/muzzle_embedding.pt",
+  "data_dir": "data/crops/cropped",
+  "split_file": "models/checkpoints/muzzle_embedding.split.json",
+  "eval_identities": [
+    "sapi_a",
+    "sapi_e",
+    "sapi_g",
+    "sapi_j",
+    "sapi_k",
+    "sapi_t",
+    "sapi_x"
+  ],
+  "device": "mps",
+  "embeddings_file": "models/checkpoints/muzzle_embedding.eval_embeddings.npz",
+  "results": [
+    {
+      "num_pairs": 595,
+      "genuine_pairs": 70,
+      "impostor_pairs": 525,
+      "eer": 0.13,
+      "eer_threshold": 0.29464077949523926,
+      "roc_auc": 0.9470748299319728,
+      "tar_at_far": {
+        "0.01": 0.5857142857142857,
+        "0.1": 0.8428571428571429
+      },
+      "quality_threshold": 0.0,
+      "images_used": 35,
+      "image_coverage": 1.0,
+      "identities_with_images": 7
+    },
+    {
+      "num_pairs": 528,
+      "genuine_pairs": 62,
+      "impostor_pairs": 466,
+      "eer": 0.14554201855184826,
+      "eer_threshold": 0.2812952399253845,
+      "roc_auc": 0.9422331441229406,
+      "tar_at_far": {
+        "0.01": 0.5645161290322581,
+        "0.1": 0.8225806451612904
+      },
+      "quality_threshold": 50.0,
+      "images_used": 33,
+      "image_coverage": 0.9428571428571428,
+      "identities_with_images": 7
+    },
+    {
+      "num_pairs": 153,
+      "genuine_pairs": 20,
+      "impostor_pairs": 133,
+      "eer": 0.087593984962406,
+      "eer_threshold": 0.3499516546726227,
+      "roc_auc": 0.9796992481203006,
+      "tar_at_far": {
+        "0.01": 0.6,
+        "0.1": 0.95
+      },
+      "quality_threshold": 100.0,
+      "images_used": 18,
+      "image_coverage": 0.5142857142857142,
+      "identities_with_images": 7
+    }
+  ]
+}
